@@ -16,6 +16,7 @@ import { ProductDetailModal } from './components/modals/ProductDetailModal';
 import { NetworkModal } from './components/modals/NetworkModal';
 import { NewsDetailModal } from './components/modals/NewsDetailModal';
 import { CertificationModal } from './components/modals/CertificationModal';
+import { Chatbot } from './components/Chatbot';
 
 import { GasProduct, NewsItem, Language } from './types';
 
@@ -174,6 +175,14 @@ export default function App() {
         isOpen={certOpen}
         onClose={() => setCertOpen(false)}
         lang={lang}
+      />
+
+      {/* 24/7 AI Gas Consultant Chatbot */}
+      <Chatbot
+        lang={lang}
+        onOpenInquiry={(pName) => handleOpenInquiry(pName)}
+        onOpenNetwork={() => setNetworkOpen(true)}
+        onOpenCatalog={() => setCatalogOpen(true)}
       />
     </div>
   );
