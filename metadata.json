@@ -1,0 +1,6 @@
+{
+  "name": "MS GAS | (주)MS가스 토탈 가스 솔루션",
+  "description": "1974년 창립 이래 반세기 동안 축적된 고압·특수가스 기술력과 전국 직영 공급망을 갖춘 원스톱 종합 가스 솔루션 포털.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
